@@ -25,4 +25,8 @@ The game is developed as gameplay prototype. The pygame is used to speedup devel
 
 The code is tested and developed with python 3.6 on Mac OS. It is suggested to use homebrew to install python and then pip to install pygame itself:
 
-    pip3 install pygame
+    py -3.12 -m venv venv
+    venv\Scripts\activate
+    python -m pip install -U pip setuptools wheel
+    python -m pip install pygame
+
